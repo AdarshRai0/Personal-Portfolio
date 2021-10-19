@@ -1,0 +1,24 @@
+.style-switcher{
+    position: fixed;
+    right:15px;
+    top: 55px;
+    z-index: 101;
+}
+.style-switcher .s-icon{
+   
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.3s ease;
+    
+}
+.style-switcher .s-icon:after{
+    border-radius: 50%;
+}
+.style-switcher .day-night{
+    top: 55px;
+}
